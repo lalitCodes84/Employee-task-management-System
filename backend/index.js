@@ -7,15 +7,15 @@ app.use(express.json());
 
 app.get("/",(req,res) => {
     try {
-        res.send(`Server Started Successfully`)
+        res.send(`Server Started Successfully`);
     } catch (error) {
-        res.send(`Server Error`)
+        res.send(`Server Error`);
     }
-})
+});
 
 app.listen(PORT,()=>{
-    console.log(`Server Started Successfully On Port ${PORT}`)
-})
+    console.log(`Server Started Successfully On Port ${PORT}`);
+});
 
 
 
