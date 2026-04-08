@@ -25,5 +25,5 @@ const findUserByEmail = (email, callback) => {
 // Export model methods
 module.exports = {
   createUser,
-  findUserByEmail
+  findUserByEmail,
 };

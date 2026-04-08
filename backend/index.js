@@ -24,7 +24,7 @@ app.use("/api/auth", authRoutes);
 // Health check route
 app.get("/", (req, res) => {
   res.status(200).json({
-    message: "Server running successfully"
+    message: "Server running successfully",
   });
 });
 
